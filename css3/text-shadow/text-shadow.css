@@ -1,0 +1,8 @@
+h1 {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px 0 red, -3px -3px 0 blue;
+    /* sama seperti box shadow bisa multiple tapi tida memiliki inset dan spread */
+
+}

@@ -1,0 +1,16 @@
+/* contoh inline*/
+/* nav a{
+    background-color: pink;
+} */
+
+
+/* mengubah display default pada tag a (inkine) menjadi inline-blockk,agar bisa diubah ukuran witdh dan height nya  */
+
+/* nav a{
+    background-color: pink;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+} */
+
+/* div akan memenuhi content nya berbeda dengan block yang memenuhi 1 browser */

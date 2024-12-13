@@ -1,0 +1,13 @@
+/* float untuk mengatur dan memaksa tata letak dari parent nya hanya none left right */
+.container {
+    width: 600px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+    float: left;
+    margin: 20px;
+}

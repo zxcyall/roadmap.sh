@@ -1,0 +1,31 @@
+/* z index untuk memberikan urutan posisi bisa berupa angka yangmana semakin besar angka nya maka akan semakin depan
+sama hal nya seperti overlay pada editing misal contoh di bawah value nya bisa minus */
+
+
+
+
+.satu {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.dua {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+    margin-left: 30px;
+}
+
+.tiga {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+}

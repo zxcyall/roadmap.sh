@@ -1,0 +1,8 @@
+/* font face digunakan untuk menggunakan font tanpa harus memperdulikan si browser user support atau tidak
+dengan cara memberikan font eksternal berupa file yang mana nanti bisa di panggil menggunakan properti fontface
+
+syntax : */
+@font-face {
+    font-family: ;
+    src: url();
+}

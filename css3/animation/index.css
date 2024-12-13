@@ -1,0 +1,24 @@
+/* name duration timming-function delay iteration-count direction fill-mode play-state */
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    animation: animasi 2s ease 3 alternate forwards ;
+
+    
+}
+
+.kotak:hover{
+}
+
+@keyframes animasi {
+    0% {
+        width: 200px;
+
+    }50% {
+        width: 400px;
+    }70% {
+        width: 700px;
+        height: 400px;
+    }
+}

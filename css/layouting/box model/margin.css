@@ -1,0 +1,45 @@
+/* margin vertikal = overlapping atau yg paling besar yg di pakai dan tidak saling menambahkan 
+jika margine horizontal maka akan menambahkan margine (tidak seperti vertikal)*/
+/* ada margine minus sama konsep cuma berkebalikan */
+
+div {
+    display: inline-block;
+}
+
+.satu {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  
+}
+
+.dua {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  
+}
+
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+  
+}
+
+/* margine auto jika ingin di gunakan maka harus kiri dan kanan nya juga auto dan efek nya akan berada di
+ tengah dari parent nya atau pembungkus */
+
+ /* div{
+    margin-left: auto;
+    margin-right: auto;
+ } */
+
+
+
+ /* shorthand atau singkatan untuk margine */
+ /* margine : 50px ini adalah sama atas bawah kiri kanan*/
+ /* margine : 50px,100px atas bawah , kiri kanan*/
+ /* margine : 50px,100px,300px atas, kiri kanan , bawah*/
+ /* margine : 50px,100px,200px,90px atas, kanan, bawah ,kiri (searah jarum jam)*/
+ 

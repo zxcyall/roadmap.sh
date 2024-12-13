@@ -1,0 +1,15 @@
+/* linear gradient bukanlah property css3 tapi ia adalah value dari background image bisa untuk color dan image */
+div {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: salmon;
+    /* background-image: linear-gradient(red,green); */
+    /* paramater sederhana nya seperti itu jika ingin tambahkan warna tiggal di tambahkan koma lalu isi warna bisa untuk rgb hexa dll*/
+    /* bisa untuk multiple color */
+    /* default nya dari atas ke bawah namun bisa di setting juga dari kiri ke kanan tambahin deg (900deg) kanan ke kiri tambahin minus */
+    /* untuk diagonal bisa gunakan tujuan (to botom right) */
+    /* color stop agar warna nya tida seimbang biar warna a lebih banyak dari warna b */
+    background-image: linear-gradient(to right,red 63%,green 80%);
+
+}

@@ -1,0 +1,57 @@
+/* parameter delay untuk menahan atau menunggu pergerakan transisi */
+/* parameter timming function untuk perilaku dan waktu sampai serta percepatan nya */
+
+body {
+    background-color: lightskyblue;
+}
+
+body:hover{
+    background-color: violet;
+    transition: 1s;
+}
+
+div {
+    margin: 120px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+
+
+.kotak {
+    background-color: salmon;
+}
+
+.gabut {
+    background-color: rgb(247, 29, 5);
+    width: 200px;
+    height: 200px;
+}
+
+.kotak:hover {
+    transform: rotate(720deg);
+    border-radius: 50%;
+    background-color: slategray;
+    transition: 3s;
+}
+
+.gabut:hover {
+    transform: rotate(9000000000000999999999990deg);
+    border-radius: 70%;
+    background-color: slategray;
+    transition: 50s;
+    border-radius: 50%;
+
+}
+
+.persegi {
+    background-color: slategray;
+}
+
+.persegi:hover {
+    transform: rotate(720deg);
+    border-radius: 70%;
+    background-color: skyblue;
+    transition: 5s;
+}

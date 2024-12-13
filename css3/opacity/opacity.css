@@ -1,0 +1,16 @@
+body {
+    background-image: url(rog-logo-colorful-circuit-uhdpaper.com-4K-1.jpg);
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    opacity: 0.5;
+    background-color: brown;
+    position: absolute;
+    top: 200px;
+    right: 500px;
+}
+
+/* transparan bisa di timpa */

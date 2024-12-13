@@ -1,0 +1,27 @@
+/* satuan selain pixel (px) 
+persen (%) nilai nya relative terhadap pparent nya(inharet) browser bisa 
+untuk satuan dari dunia nyata */
+
+/* .satu{
+    width: 200px; 
+    height: 200px;
+    background-color: lightblue;
+}
+
+.dua {
+    width: 50%;
+    height: 50%;   
+    background-color: aqua; 
+}
+/* akan mengikuti parent nya yg mana dari div class satu */
+
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: pink; 
+    /* otomatis akan tida muat untuk background (div) atau pembungkus  nya yg sudah di seting 200px maka dari itu menggunakan overflow
+    overflow sendiri ada beberapa dan disini akan menggunkan auto yg mana memunculkan scrool secara auto ketika konten tida muat
+    dan overflow default nya adalah visible */
+    overflow: auto;
+}

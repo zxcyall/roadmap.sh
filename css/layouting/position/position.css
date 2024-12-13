@@ -1,0 +1,21 @@
+/* elemen position static adalah flow normal dan ada relative keluar dari di mensi dan bisa di gerakan left right top bottom nya */
+/* absolute naik ke atas juga seperti relative namun posisi awal di tidak di anggap ada oleh elemen di sekita (bawah) nya */
+/* fixed mirip absolute namun yg membedakan memungkinkan untuk tetep berada walau di scrool seperti navbar pada web umum nya */
+
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+.satu {
+    background-color: blue;
+}
+
+.dua {
+    background-color: red;
+}
+
+.tiga {
+    background-color: gold;
+}

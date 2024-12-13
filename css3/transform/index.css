@@ -1,0 +1,25 @@
+p {
+    height: 200px;
+    text-align: center;
+}
+
+.kotak {
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin: auto;
+    border-radius: 30%;
+    text-align: center;
+    line-height: 200px;
+}
+
+.kotak:hover {
+    transform: 
+    translate(30px),
+    scale(30deg),
+    rotate(320deg);
+    transition: 1s;
+    border-radius: 0;
+    background-color: orange;
+}
